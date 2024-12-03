@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ 
+  .logo {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  
+  .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form h3 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-quantity,
+  .input-description {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-quantity {
+    max-width: 60px;
+  }
+  
+  .btn-add {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .packing-list {
+    margin-top: 20px;
+  }
+  
+  .packing-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .packing-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-description {
+    font-weight: bold;
+  }
+  
+  .item-quantity {
+    color: #555;
+  }
+  
+  .item-date {
+    color: #888;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .color-picker {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-toggle,
+  .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-toggle {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-toggle:hover {
+    background-color: #218838;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  
+  .stats {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .stats p {
+    margin: 0;
+  }
+  
